@@ -13,7 +13,7 @@ const Hotel = () => {
   {
     hotelsData.map((data)=>{
         return <div key={data.id}> 
-        <HotelCards />
+        <HotelCards hotel={data} />
         </div>
     })
   }
